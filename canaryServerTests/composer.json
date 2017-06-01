@@ -1,0 +1,12 @@
+{
+  "name": "talhaparacha/canary-testing",
+  "description": "Canary testing suite",
+  "type": "project",
+  "require": {
+    "phpunit/phpunit": "^5.7",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "scripts": {
+    "canary-tests": "./vendor/bin/phpunit"
+  }
+}
